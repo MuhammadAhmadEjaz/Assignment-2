@@ -4,10 +4,10 @@
     --secondary: #1f2937;
     --secondary-hover: #131922;
     --bg-grey: #e5e7eb;
-    --padding: 0 130px;
-    --padding-hero: 100px 130px;
-    --padding-info: 50px 130px;
-    --padding-testimonial: 80px 320px;
+    --padding: 0 10%;
+    --padding-hero: 100px 10%;
+    --padding-info: 50px 10%;
+    --padding-testimonial: 80px 25%;
     --low-contrast: #aeb2b9;
     --grey-text: #818892;
 }
@@ -131,13 +131,13 @@ body {
 }
 
 .illustration-outer img {
-    width: 160px;
-    height: 150px;
+    width: 100%;
+    height: 100%;
     border-radius: 8px;
 }
 
 .illustration-outer p {
-    width: 160px;
+    width: 100%;
     margin-top: 8px;
     text-align: center;
     color: var(--grey-text);
